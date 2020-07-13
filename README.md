@@ -21,13 +21,13 @@ __Description__
     _src/main/java/com/luv2code/springboot/thymeleafdemo/service/EmployeeService.java_
 * EmployeeServiceImpl.java -> service implementation class, it uses JPA Repo methods to perform operations on DB
     _src/main/java/com/luv2code/springboot/thymeleafdemo/service/EmployeeServiceImpl.java_
-* employee-form.html -> thymeleaf template for adding new employee
+* employee-form.html -> thymeleaf template for adding new employee  
     _target/classes/templates/employees/employee-form.html_
-* list-employees.html -> thymeleaf template for main page, table and action buttons
+* list-employees.html -> thymeleaf template for main page, table and action buttons  
     _target/classes/templates/employees/list-employees.html_
-* application.properties -> properties for SQL connection
+* application.properties -> properties for SQL connection  
     _target/classes/application.properties_
-* pom.xml -> POM file for Maven Repo
+* pom.xml -> POM file for Maven Repo  
     _pom.xml_
 
 ### Other files are vendors data, supplied or found for this project purpose
