@@ -9,26 +9,25 @@ __Description__
 
 ## Important files
 
-* ThymeleafdemoApplication.java -> 
-    __
-* EmployeeController.java -> 
-    __
-* EmployeeRepository.java -> 
-    __
-* Employee.java -> 
-    __
-* EmployeeService.java -> 
-    __
-* EmployeeServiceImpl.java -> 
-    __
-* employee-form.html -> 
-    __
-* list-employees.html -> 
-    __
-* application.properties ->
-    __
-* pom.xml
-    __
-
+* ThymeleafdemoApplication.java -> main class to launch app with help of Spring Boot  
+    _src/main/java/com/luv2code/springboot/thymeleafdemo/ThymeleafdemoApplication.java_
+* EmployeeController.java -> main controller, maps all apps features  
+    _src/main/java/com/luv2code/springboot/thymeleafdemo/controller/EmployeeController.java_
+* EmployeeRepository.java -> class which extends JPA Repo, replace standard DAO class
+    _src/main/java/com/luv2code/springboot/thymeleafdemo/dao/EmployeeRepository.java_
+* Employee.java -> main entity class, mapps DB columns to fields by annotating them
+    _src/main/java/com/luv2code/springboot/thymeleafdemo/entity/Employee.java_
+* EmployeeService.java -> service interface, declares methods which later will become apps features
+    _src/main/java/com/luv2code/springboot/thymeleafdemo/service/EmployeeService.java_
+* EmployeeServiceImpl.java -> service implementation class, it uses JPA Repo methods to perform operations on DB
+    _src/main/java/com/luv2code/springboot/thymeleafdemo/service/EmployeeServiceImpl.java_
+* employee-form.html -> thymeleaf template for adding new employee
+    _target/classes/templates/employees/employee-form.html_
+* list-employees.html -> thymeleaf template for main page, table and action buttons
+    _target/classes/templates/employees/list-employees.html_
+* application.properties -> properties for SQL connection
+    _target/classes/application.properties_
+* pom.xml -> POM file for Maven Repo
+    _pom.xml_
 
 ### Other files are vendors data, supplied or found for this project purpose
